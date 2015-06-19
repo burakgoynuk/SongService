@@ -1,0 +1,20 @@
+This directory contains source codes, mysqlconector.bin and this README file.
+
+For compiling the source code:
+	javac *.java
+
+For starting server:
+	java -classpath .:mysql-connector-java-5.0.8-bin.jar Server
+
+For starting client:
+	java Client
+
+Before starting the client, be sure you should start server.
+
+Additional Commands:
+	metadata -> Shows the metadata of the entered file.
+	
+	On update command, if you enter space directly, without entering any word, the old value of the fields are kept.	
+
+Note that it is assumed that all of the audio and ser files are in the directory called “inputs” like given in the homework, with the same path as source codes. All ser files are saved also inputs folder. Since it is received from COW, this document does not contain it. 
+ 
