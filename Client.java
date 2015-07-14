@@ -23,10 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.security.*;
 
-/**
- *
- * @author Burak
- */
+
 public class Client {
     protected static MessageDigest md;
     protected static Random rng;
