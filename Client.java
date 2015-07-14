@@ -25,7 +25,7 @@ import java.security.*;
 
 /**
  *
- * @author Yamac
+ * @author Burak
  */
 public class Client {
     protected static MessageDigest md;
